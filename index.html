@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <header>
+        <nav class="navbar">
+
+            <h1 class="logo">My Portfolio</h1>
+
+            <ul class="nav-links">
+
+                <li><a href="#home">Home</a></li>
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#skills">Skills</a></li>
+
+                <li><a href="#projects">Projects</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+            <button onclick="darkMode()" class="dark-btn">
+                Dark Mode
+            </button>
+
+        </nav>
+    </header>
+
+    <!-- HOME -->
+
+    <section id="home" class="home">
+
+        <img src="images/profile.jpeg" class="profile-img">
+
+        <h2>Hello, I'm Srushti</h2>
+
+        <h3>Frontend Developer</h3>
+
+        <p>
+            Passionate web developer skilled in HTML,
+            CSS and JavaScript.
+        </p>
+
+        <button class="btn">Hire Me</button>
+
+    </section>
+
+    <!-- ABOUT -->
+
+    <section id="about" class="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            I am a passionate web developer interested
+            in creating responsive websites and modern UI designs.
+        </p>
+
+        <h3>Education</h3>
+
+        <ul>
+            <li>B.E </li>
+            <li>Full Stack Java</li>
+        </ul>
+
+    </section>
+
+    <!-- SKILLS -->
+
+    <section id="skills" class="skills">
+
+        <h2>My Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML</h3>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS</h3>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-brands fa-js"></i>
+                <h3>JavaScript</h3>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-brands fa-java"></i>
+                <h3>Java</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+
+    <section id="projects" class="projects">
+
+    <h2>Projects</h2>
+
+    <div class="project-container">
+
+        <!-- PROJECT 1 -->
+
+        <div class="project-card">
+
+            <img src="images/project1.jpeg">
+
+            <h3>HTML Links and Forms</h3>
+
+            <p>
+                Created web pages using HTML links, forms,
+                input fields, buttons and validation concepts.
+            </p>
+
+        </div>
+
+        <!-- PROJECT 2 -->
+
+        <div class="project-card">
+
+            <img src="images/project2.jpeg">
+
+            <h3>HTML Class and ID Design</h3>
+
+            <p>
+                Designed webpages using class, id,
+                iframe and head elements with proper structure.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+    <!-- CONTACT -->
+
+    <section id="contact" class="contact">
+
+        <h2>Contact Me</h2>
+
+        <form>
+
+            <input type="text" placeholder="Your Name">
+
+            <input type="email" placeholder="Your Email">
+
+            <textarea placeholder="Your Message"></textarea>
+
+            <button type="submit">Send</button>
+
+        </form>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>© 2026 My Portfolio Website</p>
+
+        <div class="social-links">
+
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
